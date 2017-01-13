@@ -1,19 +1,13 @@
 # grades-cal
 python practice/hw
 
-Write a complete and syntactically correct Python program to solve the following problem: You are the payroll manager for SoftwarePirates Inc. You have been charged with writing a package that calculates the monthly paycheck for the salespeople. Salespeople at
-b. The
+Write a complete and syntactically correct Python program to solve the following problem: You are the payroll manager for SoftwarePirates Inc. You have been charged with writing a package that calculates the monthly paycheck for the salespeople. Salespeople at SoftwarePirates get paid a base salary of $2000 per month. Beyond the base salary, each salesperson earns commission on the following scale:
+Sales  <$10000 Commission Rate 0 Bonus 0
+Sales  $10000 – $100,000 Commission Rate 2% Bonus 0
+Sales  $100,001 - $500,000 Commission Rate 15% Bonus $1000
+Sales  $500,001 - $1,000,000 Commission Rate 28% Bonus $5000
+Sales  >$1,000,000 Commission Rate 35% Bonus $100,000
 
-SoftwarePirates get paid a base salary of $2000 per month. Beyond the base salary, each salesperson earns commission on the following scale:
-Sales
-Commission Rate
-Bonus
-0
-0
-$1000 $5000 $100,000
- <$10000
-$10000 – $100,000 $100,001 - $500,000 $500,001 - $1,000,000 >$1,000,000
-0% 2% 15% 28% 35%
 1. The following additional conditions apply:
 2. If a salesperson has taken more than 3 vacation days in a month, their pay gets reduced
 by $200
