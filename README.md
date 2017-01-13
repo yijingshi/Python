@@ -1,4 +1,4 @@
-# grades-cal
+# sales-cal
 python practice/hw
 
 Write a complete and syntactically correct Python program to solve the following problem: You are the payroll manager for SoftwarePirates Inc. You have been charged with writing a package that calculates the monthly paycheck for the salespeople. Salespeople at SoftwarePirates get paid a base salary of $2000 per month. Beyond the base salary, each salesperson earns commission on the following scale:
