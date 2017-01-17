@@ -54,5 +54,18 @@ Low!” If the player’s guess is within a 10 point difference of the number ge
 5. The program will keep taking guesses until the player guesses the number.
 6. Once the player guesses the number, give them a congratulatory message like “You rock!
 You guessed the number in x tries!!” where x is the actual number of tries it took the player to guess the number. You can write any message as long as you include the number of tries in the message.
-7. Once the player has guessed the number, ask them if they wish to play again. If they do then generate another random number and start the game over again. 
+7. Once the player has guessed the number, ask them if they wish to play again. If they do then generate another random number and start the game over again.
 8. All input to the program will be interactive from the keyboard.
+
+#Files and Exception -4
+Write a program for Professor at College that allows him to keep a record of the students’ average grade in his class. The program must be written in accordance with the following specs:
+1. The input must be interactive from the keyboard. You will take input for 12 students.
+2. You will input the students’ name and an average grade. The student cannot enter
+an average below zero or above 100. Your program must raise and handle an exception should this occur.
+a. The exception should cause the program to return and get a new grade
+3. Write all out put to a file named grades.txt
+4. Close the out put file.
+5. Open the file grades.txt for input.
+6. Your program will raise and handle an exception if the file is not found.
+a. I will test this aspect by changing the filename and looking for your exception code (your exception should cause program to ask for correct file name).
+7. Read all the records from the file and display them.
