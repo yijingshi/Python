@@ -69,3 +69,19 @@ a. The exception should cause the program to return and get a new grade
 6. Your program will raise and handle an exception if the file is not found.
 a. I will test this aspect by changing the filename and looking for your exception code (your exception should cause program to ask for correct file name).
 7. Read all the records from the file and display them.
+
+
+
+#List and files -7
+Write a program for Professor at College that allows him to read in student names. The program must be written in accordance with the following specs:
+1. You must use functions and pass the list in and out of the function.
+2. The input must be interactive from the keyboard. You will take input for 12 students.
+3. You will input the students’ name and insert/append each name in a list named
+students.
+4. Sort the list in alphabetical order.
+5. Sort the list again in reverse order.
+6. Append the instructor’s name on to the list.
+7. Insert your own name at the beginning of the list.
+8. Write the list to a file.
+9. Displaythecontentsofthefilenamednames.txt.
+10.Convert the list to a Tuple.
