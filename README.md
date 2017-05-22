@@ -70,9 +70,8 @@ a. The exception should cause the program to return and get a new grade
 a. I will test this aspect by changing the filename and looking for your exception code (your exception should cause program to ask for correct file name).
 7. Read all the records from the file and display them.
 
+#list -7
 
-
-#List and files -7
 Write a program for Professor at College that allows him to read in student names. The program must be written in accordance with the following specs:
 1. You must use functions and pass the list in and out of the function.
 2. The input must be interactive from the keyboard. You will take input for 12 students.
@@ -85,3 +84,12 @@ students.
 8. Write the list to a file.
 9. Displaythecontentsofthefilenamednames.txt.
 10.Convert the list to a Tuple.
+
+
+#string -6
+1. Input a date in numeric format from the user e.g. mm/dd/yy.
+2. Examine the month entered by the user. If it is larger than 12 or smaller than 1
+issue an error message and ask for input again.
+3. Perform similar validation tests for the date and year. Year must be 2013. (Any
+other year is invalid) In addition, the year must only be two digits long.
+4. Once all input has been validated, output the string in long date format. Thus a string that was input as 06/01/15 will be output as June 1, 2015.
